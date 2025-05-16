@@ -2,7 +2,7 @@
 
 require 'rexml/document'
 
-SUBFOLDER = "Community Pack 1.2"
+SUBFOLDER = "1.2 Presets"
 
 def read_top_100_preset_names
   top_100_presets = Set.new
