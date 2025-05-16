@@ -10,8 +10,8 @@ def read_top_100_preset_names
     preset = line.strip
     top_100_presets.add(preset.downcase)
 
-    synth_file = "./SYNTHS/Community Pack 1.2/#{preset}.XML"
-    kit_file = "./KITS/Community Pack 1.2/#{preset}.XML"
+    synth_file = "./SYNTHS/1.2 Presets/#{preset}.XML"
+    kit_file = "./KITS/1.2 Presets/#{preset}.XML"
     unless File.exist?(synth_file) || File.exist?(kit_file)
       Warning.warn("#{preset}.XML not found!\n")
     end
