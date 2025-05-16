@@ -1,4 +1,4 @@
-z<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <kit firmwareVersion="c1.2.0" earliestCompatibleFirmware="4.1.0-alpha" modFXCurrentParam="feedback" currentFilterType="lpf" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L">
 	<defaultParams reverbAmount="0x80000000" volume="0x3504F334" pan="0x00000000" sidechainCompressorShape="0xDC28F5B2" modFXDepth="0x00000000" modFXRate="0xE0000000" stutterRate="0x00000000" sampleRateReduction="0x80000000" bitCrush="0x80000000" modFXOffset="0x00000000" modFXFeedback="0x80000000" compressorThreshold="0x00000000" lpfMorph="0x80000000" hpfMorph="0x80000000" tempo="0x00000000">
 		<delay rate="0x00000000" feedback="0x80000000" />
